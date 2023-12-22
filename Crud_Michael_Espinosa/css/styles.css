@@ -1,0 +1,13 @@
+body {
+    background-color: #fff; 
+    background-image: url('/files/espe.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.navbar {
+    background: linear-gradient(to bottom, #00ff5573, white);
+}
+
+ 
