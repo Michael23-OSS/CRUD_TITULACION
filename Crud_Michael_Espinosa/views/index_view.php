@@ -12,8 +12,10 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    
-    <!--  CSS  -->
-    <link rel="stylesheet" href="../css/styles.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/Crud_Michael_Espinosa/css/styles.css">
+
+    
     
     <title>PHP CRUD MYSQL</title>
     
@@ -34,10 +36,10 @@
                   </div>';
         }
         ?>
-        <a href="add-new.php" class="btn btn-dark mb-3">Add New</a>
+        <a href="add-new.php" class="btn btn-info mb-3">Add New</a>
 
         <table class="table table-hover text-center">
-            <thead class="table-dark">
+            <thead class="light-blue-bg">
                 <tr>
                     <th scope="col">ID</th>
                     <th scope="col">First Name</th>

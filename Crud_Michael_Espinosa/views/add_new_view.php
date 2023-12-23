@@ -15,8 +15,9 @@
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!--  CSS  -->
-    <link rel="stylesheet" href="../css/styles.css">
+   
+    <!-- CSS -->
+    <link rel="stylesheet" href="/Crud_Michael_Espinosa/css/styles.css">
    
     <title>PHP CRUD MYSQL</title>
     
@@ -38,18 +39,18 @@
                 <div class="row mb-3">
                     <div class="col">
                         <label class="form-label">First Name:</label>
-                        <input type="text" class="form-control" name="first_name" placeholder="Albert">
+                        <input type="text" class="form-control" name="first_name" placeholder="Michael">
                     </div>
 
                     <div class="col">
                         <label class="form-label">Last Name:</label>
-                        <input type="text" class="form-control" name="last_name" placeholder="Einstein">
+                        <input type="text" class="form-control" name="last_name" placeholder="Espinosa">
                     </div>
                 </div>
 
                 <div class="mb-3">
                     <label class="form-label">Email:</label>
-                    <input type="email" class="form-control" name="email" placeholder="name@example.com">
+                    <input type="email" class="form-control" name="email" placeholder="michael1@espe.edu.ec">
                 </div>
 
                 <div class="form-group mb-3">
@@ -63,8 +64,8 @@
                 </div>
 
                 <div>
-                    <button type="submit" class="btn btn-success" name="submit">Save</button>
-                    <a href="index.php" class="btn btn-danger">Cancel</a>
+                    <button type="submit" class="btn btn-primary" name="submit">Save</button>
+                    <a href="index.php" class="btn btn-warning">Cancel</a>
                 </div>
             </form>
         </div>

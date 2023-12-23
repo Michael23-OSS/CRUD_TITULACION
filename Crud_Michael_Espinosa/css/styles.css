@@ -1,6 +1,6 @@
 body {
     background-color: #fff; 
-    background-image: url('/files/espe.png'); 
+    background-image: url('../files/espe.png'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -10,4 +10,6 @@ body {
     background: linear-gradient(to bottom, #00ff5573, white);
 }
 
- 
+.light-blue-bg {
+    background-color: #c1ecf7; /* light blue background color */
+}

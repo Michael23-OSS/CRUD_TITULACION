@@ -12,8 +12,8 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!--  CSS  -->
-    <link rel="stylesheet" href="../css/styles.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/Crud_Michael_Espinosa/css/styles.css">
     
     <title>PHP CRUD MYSQL</title>
     
@@ -60,8 +60,8 @@
                 </div>
 
                 <div>
-                    <button type="submit" class="btn btn-success" name="submit">Update</button>
-                    <a href="index.php" class="btn btn-danger">Cancel</a>
+                    <button type="submit" class="btn btn-primary" name="submit">Update</button>
+                    <a href="index.php" class="btn btn-warning">Cancel</a>
                 </div>
             </form>
         </div>
